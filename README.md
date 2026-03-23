@@ -2,6 +2,11 @@
 
 Swim practice workouts for M3A Age Group teams.
 
+## Season Structure
+
+-**2025-26 SC/**: Sets from 2025-26 Short Course season. These have been retroactively converted into .tex and pushed to Git, so formatting may be a bit inconsistent.
+-**2026 LC**: Sets from 2026 Long Course season.
+
 ## Folder Structure
 
 - **Templates/**: Blank templates for creating new workouts
