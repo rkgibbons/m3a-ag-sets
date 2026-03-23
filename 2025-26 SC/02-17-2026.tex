@@ -1,0 +1,78 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Main Practice Table
+\begin{tabular}{|L{1.5cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} & 8 x 40 FR/BK & @ 1:00 & 12 x 60 & @ 1:20 & 12 x 80 & @ 1:20 \\
+\hline
+& 4 x 40 BR or FL & @ 1:10 &  & 40 FR / 20 BK &  & 60 FR / 20 BK \\
+&  &  &  &  &  &  \\
+& 4x (IMO by round) &  & 3x &  & 3x &  \\
+&  &  &  &  &  &  \\
+& 6 x 20 & @ 0:40 & 7 x 20 & @ :40 & 7 x 20 & @ :40 \\
+&  & FROM MID-POOL &  & FROM MID-POOL &  & FROM MID-POOL \\
+&  & Odds = Stroke &  & IM Cycle &  & IM Cycle \\
+&  & Evens = FR &  &  &  &  \\
+&  &  &  &  &  &  \\
+& 3 x 40 & @ 1:10 & 4 x 80 FR & @ 1:45 & 4 x 100 FR & @ 1:45 \\
+&  & IM Transition &  & Desc. Turns 1-3 &  & Desc. Turns 1-4 \\
+&  &  &  & Choice &  & Choice \\
+&  &  &  &  &  &  \\
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} & Partner critiqued turns &  & 3-4x &  & 3-4x &  \\
+\hline
+&  &  &  &  &  &  \\
+&  &  & 5 x 40 FR & @ :50 / 45 & 6 x 40 FR & @ :40 / :35 \\
+&  &  &  & FAST WALLS &  & FAST WALLS \\
+&  &  &  &  &  &  \\
+&  &  & 8 x 20 & @ :40 & 8 x 20 & @ :40 \\
+&  &  &  & 2 x each str IMO &  & 2 x each str IMO \\
+&  &  &  & WORK FINISHES &  & WORK FINISHES \\
+&  &  &  &  &  &  \\
+&  &  & 80 moderate &  & 80 moderate &  \\
+&  &  &  &  &  &  \\
+&  &  &  &  &  &  \\
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & LONG SWIM w/ flip turns &  & 200+ FR &  & 200+ FR &  \\
+\hline
+
+\end{tabular}
+
+\end{document}

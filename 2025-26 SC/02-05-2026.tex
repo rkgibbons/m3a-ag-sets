@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Main Practice Table
+\begin{tabular}{|L{1.5cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} & 6 x 60 FR & @1:30 & 12 x 60 FR & @1:20 & 12 x 80 FR & @1:20 \\
+\hline
+&  &  &  & First 20 = KK &  & First 20 = KK \\
+&  &  &  &  &  &  \\
+% ===== KICK SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Kick Set} & 2x: &  & 3x: &  & 3x: &  \\
+\hline
+&  &  &  &  &  &  \\
+& 4 x 40 & @ 1:15 & 4 x 40 & @ 1:00 & 4 x 40 & @ 0:50 \\
+&  & SL Kick on Back &  & SL Kick on Back &  & SL Kick on Back \\
+&  & DOLPHIN &  & DOLPHIN &  & DOLPHIN \\
+&  & w/ flip turn &  & w/ flip turn &  & w/ flip turn \\
+&  &  &  &  &  &  \\
+& 40 EZ FR & @ 1:15 & 40 EZ FR & @ 1:15 & 40 EZ FR & @ 1:15 \\
+&  &  &  &  &  &  \\
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} & 2x: &  & 4x &  & 4x &  \\
+\hline
+&  &  &  &  &  &  \\
+& 4 x 60 FR & @1:30 & 80 FR & @2:00 & 80 FR & @2:00 \\
+&  & 6 UWK / wall &  & Moderate &  & Moderate \\
+&  &  &  &  &  &  \\
+& 4 x 40 FR & @ 0:55 & 4 x 60 FR & @1:15 & 4 x 60 FR & @1:00 \\
+&  & 6 UWK &  & 6 UWK / wall &  & 6 UWK / wall \\
+&  & Mid 20 ALL OUT! &  &  &  &  \\
+&  &  & 4 x 40 FR & @ 0:50 & 4 x 40 FR & @ 0:45 \\
+& 4 x 20 FR & @ :30 &  & 6 UWK &  & 6 UWK \\
+&  & 6 UWK / all F! &  & Mid 20 ALL OUT! &  & Mid 20 ALL OUT! \\
+&  & ALL OUT! &  &  &  &  \\
+&  &  & 4 x 20 FR & @ :30 & 4 x 20 FR & @ :30 \\
+&  &  &  & 6 UWK / all F! &  & 6 UWK / all F! \\
+&  &  &  & ALL OUT! &  & ALL OUT! \\
+&  &  &  &  &  &  \\
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & 6 x 20 FR EZ & @ :40 & 3 x 80 EZ & @ 1:40 & 3 x 80 EZ & @ 1:40 \\
+\hline
+&  & 1 --> 6 UWK &  & At least 20 BK &  & At least 20 BK \\
+
+\end{tabular}
+
+\end{document}
