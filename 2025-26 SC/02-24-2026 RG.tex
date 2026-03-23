@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Main Practice Table
+\begin{tabular}{|L{1.5cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} & & & & & & \\
+\hline
+& 8 x 60 & @ 1:30 & 8 x 80 & @ 1:45 & 8 x 100 & @ 1:45 \\
+& 40 FR / 20 BK & & At least 20 BK & & At least 20 BK & \\
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Pre-Set} & \textbf{1x} & & \textbf{3x} & & \textbf{3x} & \\
+\hline
+
+& & & & & & \\
+
+& 8 x 20 SL KOB & @ :45 & 4 x 40 SL KOB & @ 1:00 & 4 x 60 SL KOB & @ 1:00 \\
+& Odds = Dolphin & & W/ Fins & & W/ Fins & \\
+& Evens = Freestyle & & Desc. 1-4 & & JMI & \\
+& & & All Dolphin & & All Dolphin & \\
+
+& & & & & & \\
+
+& 4 x 20 "WP" & @ :45 & 40 EZ FR & @ 1:30 & 40 EZ FR & @ 1:30 \\
+
+& & & & & & \\
+
+& & & & & & \\
+
+& & & & & & \\
+\hline
+
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} & & & \textbf{3-4x} & & \textbf{3-4x} & \\
+\hline
+
+& 8 x 20 & @ :45 & 6 x 20 HVOs & @ :45 & 6 x 20 HVOs & @ :45 \\
+& Fast THRU 10yds & & Fast THRU 10yds & & Fast THRU 10yds & \\
+& & & MAX GLIDE & & MAX GLIDE & \\
+
+& 8 x 20 & @ :45 & & & & \\
+& Fast POST 10yds & & 4 x 60 & @ 1:20 & 4 x 80 & @ 1:20 \\
+& & & w/ snork & & w/ snork & \\
+& & & HEAD DOWN & & HEAD DOWN & \\
+
+& & & & & & \\
+
+& & & 6 x 20 & @ :45 & 6 x 20 & @ :45 \\
+& & & FINISHES & & FINISHES & \\
+
+& & & & & & \\
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & & & & & & \\
+\hline
+& Filmed Finishes & & Filmed Finishes & & Filmed Finishes & \\
+\hline
+
+\end{tabular}
+
+\end{document}
