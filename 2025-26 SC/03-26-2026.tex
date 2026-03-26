@@ -1,0 +1,104 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Table and date side by side
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+% Main Practice Table
+\begin{tabular}{|L{2.3cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} &w/ Ben today & &15-min swim & &15-min swim & \\
+
+& & & \textcolor{gray}{Keep It Moving!}& &\textcolor{gray}{Keep It Moving!} & \\
+& & & \textcolor{gray}{Choice}& &\textcolor{gray}{Choice} & \\
+\hline
+
+
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} & & &All FR & &All FR & \\
+
+
+& & &100 &@2:00 &100 &@1:45 \\
+& & &200 &@4:00 &200 &@3:30 \\
+& & &300 &@6:00 &300 &@5:45 \\
+& & &400 &@8:00 &400 &@7:00 \\
+& & &500 &@10:00 & 500 &@9:00\\
+& & &400 &@8:00 &400 &@7:00 \\
+& & &300 &@6:00 &300 &@5:45 \\
+& & &200 &@4:00 &200 &@3:30 \\
+& & &100 &@2:00 &100 &@1:45 \\[.5cm]
+& & &200 FAST & &400 FAST & \\
+& & &\textcolor{gray}{Fins} & &\textcolor{gray}{Fins} & \\
+
+& & & & & & \\
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & & &Group meeting & &Group meeting & \\
+& & & & & & \\
+\hline
+
+\end{tabular}
+\end{minipage}%
+\hfill
+\fbox{\begin{minipage}[t]{0.115\textwidth}
+\vspace{0pt}
+\raggedleft
+\textbf{Thursday}\\
+March 26, 2026\\
+UCLS Sunny Pool\\
+Chicago, IL
+\end{minipage}}
+
+\vfill
+
+\noindent
+\begin{minipage}[b]{0.75\textwidth}
+\centering
+\textit{If we swam north the whole main set pyramid, what numbered street would we reach?}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\raggedleft
+\includegraphics[width=0.8\textwidth]{../m3logo.png}
+\end{minipage}
+
+\end{document}
