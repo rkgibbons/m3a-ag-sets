@@ -1,0 +1,103 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Table and date side by side
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+% Main Practice Table
+\begin{tabular}{|L{2.3cm}|L{4cm}L{1.8cm}|L{4cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II \& Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} &&&&\\
+&10 x 60 &@1:30 &10 x 80 &@1:30 \\
+& \textcolor{gray}{40 FR / 20 BK}& &\textcolor{gray}{60 FR / 20 BK}& \\
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Pre-Set} &4x & &4x & \\
+
+&80 IM &@2:00 &80IM &@2:00 \\ [.3cm]
+&8 x 20 FR &@:30 &8 x 20 FR &@:30 \\
+&\textcolor{gray}{2 sets of 4}&&\textcolor{gray}{2 sets of 4}&\\
+&\textcolor{gray}{All same speed (FAST!)}&&\textcolor{gray}{All same speed (FAST!)}&\\
+&\textcolor{gray}{Stroke count $\downarrow$ each 20}&&\textcolor{gray}{Stroke count $\downarrow$ each 20}&\\
+
+\hline
+
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} &3x & &3x & \\
+
+
+&4x 80 FR &@1:45 &4x100 FR &@1:45 \\
+&160 Pull &@4:00 &200 Pull &@4:00 \\[.3cm]
+
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} &8 x 20 &@:40 &8x20 &@:40 \\
+&One limb frozen... & &One limb frozen... & \\
+\hline
+
+\end{tabular}
+\end{minipage}%
+\hfill
+\fbox{\begin{minipage}[t]{0.115\textwidth}
+\vspace{0pt}
+\raggedleft
+\textbf{Friday}\\
+March 27, 2026\\
+UCLS Sunny Pool\\
+Chicago, IL
+\end{minipage}}
+
+\vfill
+
+\noindent
+\begin{minipage}[b]{0.75\textwidth}
+\centering
+\textit{A standard ball of twine is one meter long, and the moon is ~400 kilometers from the Earth. How many balls of twine could it take to reach the moon from here? }
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\raggedleft
+\includegraphics[width=0.8\textwidth]{../m3logo.png}
+\end{minipage}
+
+\end{document}
