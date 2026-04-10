@@ -1,0 +1,120 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Table and date side by side
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+% Main Practice Table
+\begin{tabular}{|L{2.3cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|L{2.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{ALL GROUPS}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\textbf{Warmup} &4 x 120 &@2:45 & & & & \\
+&4 x 80 &@1:45 & & & & \\
+&4 x 40 &@:45 & & & & \\
+&All freestyle  &Paddles ok&&&& \\
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Circuit \#1} &Part A & &Part B & &Part C & \\
+&60 ALL OUT & &20 Push-Ups & & Lunges back  & \\
+&\textit{First Lane} & & & & & \\
+&\textit{IMO by round} & & & & & \\
+
+& & & & & & \\
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+
+&Part D & &Part E & &Part F & \\
+&60 ALL OUT & & 10 burpees & & Lunges back & \\
+&\textit{Second Lane} & & & & & \\
+&\textit{FR all rounds} & & & & & \\
+
+
+\hline
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Circuit \#2} &Part A & &Part B & &Part C & \\
+&100 ALL OUT & &40 Russian Twists &(each side) & Lunges back & \\
+&\textit{First Lane} & & & & & \\
+&\textit{IM -- extra 20 non-FR} & & & & & \\
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+
+&Part D & &Part E & &Part F & \\
+
+&100 ALL OUT & & 45 sec plank & & Lunges back & \\
+&\textit{Second Lane} & & & & & \\
+&\textit{FR} & & & & & \\
+
+
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} &8 x 20 &@:40 & & & & \\
+&One limb frozen & & & & & \\
+\hline
+
+\end{tabular}
+\end{minipage}%
+\hfill
+\fbox{\begin{minipage}[t]{0.115\textwidth}
+\vspace{0pt}
+\raggedleft
+\textbf{Friday}\\
+April 10, 2026\\
+UCLS Sunny Pool\\
+Chicago, IL
+\end{minipage}}
+
+\vfill
+
+\noindent
+\begin{minipage}[b]{0.75\textwidth}
+\centering
+\textit{Where in Chicago is 0th and 0th streets? (UCLS is 58th S and 13th E)}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\raggedleft
+\includegraphics[width=0.8\textwidth]{../m3logo.png}
+\end{minipage}
+
+\end{document}
