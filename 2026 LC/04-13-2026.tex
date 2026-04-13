@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Table and date side by side
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+% Main Practice Table
+\begin{tabular}{|L{2.3cm}|L{4.5cm}L{1.8cm}|L{4.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} &800 Mix-It-Up & &1000 Mix-It-Up & \\
+
+&MAX 400 FR &&MAX 500 FR&\\
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Pre-Set} &3x & &3x & \\
+&&&&\\
+
+&80 FR @1:45& &100 FR @1:45 & \\
+
+&\quad Moderate, W/ Buoy & &\quad Moderate, W/ Buoy & \\
+&\quad Feet Past Flags & & \quad Feet Past Flags & \\
+& & & & \\
+&80 FR @1:45& &100 FR @1:45& \\
+
+&\quad Strong, No Buoy & &\quad Strong No Buoy & \\
+
+& & & & \\
+
+&4x40 @:45& &4x40 @:45& \\
+
+&\quad FAST & &\quad FAST & \\
+
+&\quad 6 UWK each wall & &\quad 8 UWK each wall & \\
+\hline
+
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} &2-3x \textit{Straight Through} & &2-3x \textit{Straight Through} & \\
+
+&&&&\\
+&200 FR @4:00 & &280FR @4:00 & \\
+&\quad Steady: max :30 rest && \quad Steady: max :30 rest & \\
+& & & & \\
+
+&4 x 100 @2:00 & &4 x 120 @2:00 & \\
+&\quad 40BK / 60FR & &\quad 60BK / 40FR & \\
+& & & & \\
+
+&200 FR @4:00 & &280FR @4:00 & \\
+&\quad Steady: max :30 rest && \quad Steady: max :30 rest & \\
+& & & & \\
+&4 x 100 @2:00 & &4 x 120 @2:00 & \\
+&\quad 40BR / 60FR & &\quad 60BR / 40FR & \\
+& & & & \\
+
+& & & & \\
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & & & & \\
+&4 x 40 EZ BK @1:00 & &4 x 40 EZ BK @1:00 & \\
+& 80 FR EZ & & 80 FR EZ & \\
+\hline
+
+\end{tabular}
+\end{minipage}%
+\hfill
+\fbox{\begin{minipage}[t]{0.115\textwidth}
+\vspace{0pt}
+\raggedleft
+\textbf{Monday}\\
+April 13, 2026\\
+UCLS Sunny Pool\\
+Chicago, IL
+\end{minipage}}
+
+\vfill
+
+\noindent
+\begin{minipage}[b]{0.75\textwidth}
+\centering
+\textit{Which two crops provide most of the sugar we eat?}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\raggedleft
+\includegraphics[width=0.8\textwidth]{../m3logo.png}
+\end{minipage}
+
+\end{document}
