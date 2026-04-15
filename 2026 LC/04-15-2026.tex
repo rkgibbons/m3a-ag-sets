@@ -1,0 +1,107 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.5in, landscape]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Use sans-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% TO UPLOAD THIS WORKOUT TO GITHUB, RUN IN TERMINAL:
+% cd ~/m3a-ag-sets
+% git add .
+% git commit -m "Add workout for [DATE]"
+% git push
+
+% Define colors
+\definecolor{sectiongray}{RGB}{230, 230, 230}
+\definecolor{silvergray}{RGB}{169, 169, 169}
+\definecolor{darkgold}{RGB}{184, 134, 11}
+\definecolor{lightgold}{RGB}{218, 165, 32}
+
+% Custom column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Table and date side by side
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+% Main Practice Table
+\begin{tabular}{|L{2.3cm}|L{1.5cm}L{1.8cm}|L{3.5cm}L{1.8cm}|L{3.5cm}L{1.8cm}|}
+\hline
+\cellcolor{sectiongray} &
+\multicolumn{2}{l|}{\cellcolor{silvergray}\textcolor{white}{\textbf{Silver I}}} &
+\multicolumn{2}{l|}{\cellcolor{darkgold}\textcolor{white}{\textbf{Gold II}}} &
+\multicolumn{2}{l|}{\cellcolor{lightgold}\textcolor{white}{\textbf{Gold 1}}} \\
+\hline
+
+% ===== WARMUP SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warmup} &w/ Ben & &8 x 80 &@2:00 &8 x 100 &@2:00 \\
+& & &\quad 40 FR & &\quad 60 FR & \\
+& & &\quad 20 Non-FR & &\quad 20 Non-FR & \\
+& & &\quad 20 SLK & &\quad 20 SLK & \\[.3cm]
+\hline
+
+% ===== PRE-SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Pre-Set} & & &600 Pull & &600 Pull & \\
+& & &\quad Feet Past Flags! & &\quad Feet Past Flags! & \\[.3cm]
+
+\hline
+
+% ===== MAIN SET SECTION =====
+\rowcolor{sectiongray}
+\textbf{Main Set} & & &3x &IMO by Rd &3x &IMO by Rd \\[.3cm]
+& & &3 x 80 & @2:00 &3 x 100 &@2:00 \\
+& & &\quad 1) 20 STR / 60 FR & &1) 20 STR / 80 FR & \\
+& & &\quad 1) 40 STR / 40 FR & &1) 40 STR / 60 FR & \\
+& & &\quad 1) 60 STR / 20 FR & &1) 60 STR / 40 FR & \\[.3cm]
+
+& & &6 x 20 & @:30 &6 x 20 &@:30 \\
+&&&\quad Stroke && \quad Stroke & \\
+&&&\quad Desc. 1 $\rightarrow$ 3 && \quad Desc. 1 $\rightarrow$ 3 & \\
+&&&\quad ALL OUT 4 $\rightarrow$ 6 && \quad ALL OUT 4 $\rightarrow$ 6 & \\[.3cm]
+&&&80 FR & @2:30 & 80 FR & @2:30 \\
+
+\hline
+
+% ===== WARM DOWN SECTION =====
+\rowcolor{sectiongray}
+\textbf{Warm Down} & & & & & & \\
+& & &200 FR & &200 FR & \\
+&&& \quad LOW HR & & \quad LOW HR& \\
+\hline
+
+\end{tabular}
+\end{minipage}%
+\hfill
+\fbox{\begin{minipage}[t]{0.115\textwidth}
+\vspace{0pt}
+\raggedleft
+\textbf{Wednesday}\\
+April 15, 2026\\
+UCLS Sunny Pool\\
+Chicago, IL
+\end{minipage}}
+
+\vfill
+
+\noindent
+\begin{minipage}[b]{0.75\textwidth}
+\centering
+\textit{What is the farthest journey a pawn can take on a chessboard?}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\raggedleft
+\includegraphics[width=0.8\textwidth]{../m3logo.png}
+\end{minipage}
+
+\end{document}
